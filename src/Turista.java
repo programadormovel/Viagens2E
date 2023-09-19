@@ -2,10 +2,12 @@ public class Turista {
     // Atributos
     private String nome;
     private String cpf;
+
     // Métodos
     public String viajar(){
         return "Viajando...";
     }
+
     // Construtor padrão
     Turista(){
     }
@@ -13,6 +15,7 @@ public class Turista {
     Turista(String _nome){
         this.nome = _nome;
     }
+
     // Encapsulamento - Getters and Setters
     public String getNome() {
         return nome;
